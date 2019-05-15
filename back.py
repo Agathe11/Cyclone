@@ -109,6 +109,7 @@ def AvendreAlouer():
 def ajouterCheval():
     connection = engine.connect()
 
+
     if request.method == 'POST':
         name = request.form['nom']
         nb = request.form['age']
